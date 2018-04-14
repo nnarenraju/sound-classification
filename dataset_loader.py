@@ -60,7 +60,9 @@ file_type = "*.wav"
 
 # Class folder location (approximate name)
 # Change as required (5 classes presented here)
-_class=[]
+no_classes = 5
+_class = [""] * no_classes
+
 _class[0] = "*mild*"
 _class[1] = "*moderate*"
 _class[2] = "*moderate2severe*"
